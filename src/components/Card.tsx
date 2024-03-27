@@ -46,10 +46,10 @@ const Card = ({ product }: CardProps) => {
       >
         <img src={product.image} alt={product.title} className='' />
         <div className='absolute top-0 left-0 right-0 bottom-0 bg-mainColor opacity-0 rounded-3xl flex justify-center items-center transition-opacity hover:opacity-35'>
-          <img src={'/src/assets/eye.svg'} alt='Eye' className='w-1/2' />
+          <img src={'/images/eye.svg'} alt='Eye' className='w-1/2' />
         </div>
         <img
-          src={isLiked ? '/src/assets/liked.svg' : '/src/assets/notLiked.svg'}
+          src={isLiked ? '/images/liked.svg' : '/images/notLiked.svg'}
           onClick={e => toggleLikeProduct(e, product)}
           alt='not liked'
           className='absolute right-3 top-3 w-7 hover:scale-125 transition-transform'
@@ -73,7 +73,7 @@ const Card = ({ product }: CardProps) => {
           )}
         </div>
         <div className='flex gap-[10px] items-center '>
-          <img src='/src/assets/star.svg' alt='Star' />
+          <img src='/images/star.svg' alt='Star' />
           <span className='font-semibold text-thirdColor text-l'>
             {product.rating}
           </span>

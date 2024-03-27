@@ -24,7 +24,7 @@ const Header = () => {
           className='p-[20px] relative cursor-pointer hover:opacity-70 transition-opacity'
         >
           <img
-            src='/src/assets/FavoritesIcon.svg'
+            src='/images/FavoritesIcon.svg'
             alt='Favorites'
             className='w-[23px] h-[23px]'
           />
@@ -39,7 +39,7 @@ const Header = () => {
           to={RoutePath.cart}
         >
           <img
-            src='/src/assets/CartIcon.svg'
+            src='/images/CartIcon.svg'
             alt='Cart'
             className='w-[23px] h-[23px]'
           />

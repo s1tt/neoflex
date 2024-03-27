@@ -48,7 +48,7 @@ const Footer = () => {
           {t('Условия сервиса')}
         </button>
         <div className='flex gap-4 font-medium'>
-          <img src='/src/assets/lang.svg' alt='Lang' />
+          <img src='/images/lang.svg' alt='Lang' />
           <button
             className={`hover:opacity-70 transition-opacity ${
               language === 'ru' &&
@@ -75,21 +75,21 @@ const Footer = () => {
           className='hover:opacity-70 transition-opacity'
           target='_blank'
         >
-          <img src='/src/assets/VK.svg' alt='VK' />
+          <img src='/images/VK.svg' alt='VK' />
         </a>
         <a
           href='https://telegram.org/'
           className='hover:opacity-70 transition-opacity'
           target='_blank'
         >
-          <img src='/src/assets/Telegram.svg' alt='Telegram' />
+          <img src='/images/Telegram.svg' alt='Telegram' />
         </a>
         <a
           href='https://www.whatsapp.com/'
           className='hover:opacity-70 transition-opacity'
           target='_blank'
         >
-          <img src='/src/assets/Whatsapp.svg' alt='Whatsapp' />
+          <img src='/images/Whatsapp.svg' alt='Whatsapp' />
         </a>
       </div>
     </footer>

@@ -28,14 +28,14 @@ const SecondCard = ({
         </div>
         <div className='flex justify-between items-center w-[120px]'>
           <img
-            src='/src/assets/minus.svg'
+            src='/images/minus.svg'
             alt='minus'
             className='cursor-pointer hover:opacity-70 transition-opacity'
             onClick={() => removeOnePieceFromCart(product.id)}
           />
           <span className='font-semibold text-l'>{product.count}</span>
           <img
-            src='/src/assets/plus.svg'
+            src='/images/plus.svg'
             alt='plus'
             className='cursor-pointer hover:opacity-70 transition-opacity'
             onClick={() => addOnePieceToCart(product)}
@@ -51,7 +51,7 @@ const SecondCard = ({
           className='hover:opacity-70 transition-opacity'
           onClick={() => removeProductFromCart(product.id)}
         >
-          <img src='/src/assets/Remove.svg' alt='Remove' />
+          <img src='/images/Remove.svg' alt='Remove' />
         </button>
         <span className='font-semibold text-mainColor text-m'>
           {formatPrice(product.price * product.count)}
